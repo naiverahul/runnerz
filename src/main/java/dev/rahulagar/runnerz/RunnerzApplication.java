@@ -1,7 +1,5 @@
 package dev.rahulagar.runnerz;
 
-import dev.rahulagar.runnerz.run.Location;
-import dev.rahulagar.runnerz.run.Run;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -22,11 +20,5 @@ public class RunnerzApplication {
 		SpringApplication.run(RunnerzApplication.class, args);
 		log.info("Something ange!");
 	}
-	@Bean
-	CommandLineRunner  runner(){
-		return args -> {
-			Run run = new Run(1, "First Run", LocalDateTime.now(), LocalDateTime.now().plus(1, ChronoUnit.HOURS), 5, Location.OUTDOOR);
-			log.info("Run:" + run);
-		};
-	}
+
 }
