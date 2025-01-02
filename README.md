@@ -7,6 +7,7 @@ UBuzz-Chat-App is a real-time chat application built with Java, Spring Boot, and
 - Real-time messaging using WebSockets
 - File upload and download functionality
 - User-friendly interface with Bootstrap
+- Can be easily integrated into any Spring-Boot web application for Real-time customer support 
 
 ## Technologies Used
 
@@ -56,6 +57,3 @@ UBuzz-Chat-App is a real-time chat application built with Java, Spring Boot, and
 - `src/main/java/dev/rahulagar/runnerz/run/manage_files/FileService.java`: Interface for file upload and download services.
 - `src/main/resources/templates/chat.html`: HTML template for the chat application interface.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
