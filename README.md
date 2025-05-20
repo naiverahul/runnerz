@@ -29,7 +29,7 @@ UBuzz-Chat-App is a real-time chat application built with Java, Spring Boot, and
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/naiverahul/UBuzz-Chat-App.git
+    git clone https://github.com/naiverahul/runnerz
     cd UBuzz-Chat-App
     ```
 
